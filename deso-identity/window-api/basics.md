@@ -23,13 +23,13 @@ The window API is responsible for opening Identity either as a pop-up window or 
 Here are examples of some calls that can be made to Identity:
 
 ```javascript
-const login   = window.open('https://identity.deso.org/log-in');
-const signUp  = window.open('https://identity.deso.org/sign-up');
-const logout  = window.open('https://identity.deso.org/logout?publicKey=BC123...');
-const approve = window.open('https://identity.deso.org/approve?tx=0abf35a...');
+const login   = window.open('https://identity.forked.social/log-in');
+const signUp  = window.open('https://identity.forked.social/sign-up');
+const logout  = window.open('https://identity.forked.social/logout?publicKey=BC123...');
+const approve = window.open('https://identity.forked.social/approve?tx=0abf35a...');
 
 // Can be added to any path for testnet deso and bitcoin addresses
-const testnet = window.open('https://identity.deso.org/log-in?testnet=true');
+const testnet = window.open('https://identity.forked.social/log-in?testnet=true');
 ```
 
 And here's an example user interface after launching the `log-in` endpoint with a couple of URL parameters, in this case, `accessLevelRequest=4`&#x20;
@@ -52,7 +52,7 @@ const h = 1000;
 const w = 800;
 const y = window.outerHeight / 2 + window.screenY - h / 2;
 const x = window.outerWidth / 2 + window.screenX - w / 2;
-const win = window.open("https://identity.deso.org/log-in", null, `toolbar=no, width=${w}, height=${h}, top=${y}, left=${x}`);
+const win = window.open("https://identity.forked.social/log-in", null, `toolbar=no, width=${w}, height=${h}, top=${y}, left=${x}`);
 ```
 
 When we pass the public key to the Identity window API, it should always be in **base58check** format:
@@ -164,7 +164,7 @@ Because responses to these endpoints contain sensitive user information, the pro
 Below is an example call to the `derive` endpoint with a `auth://derive` callback URL:
 
 ```javascript
-const derive = window.open('https://identity.deso.org/derive?callback=auth://derive');
+const derive = window.open('https://identity.forked.social/derive?callback=auth://derive');
 ```
 
 After user finishes the Identity flow the payload will be sent via URL parameters as a GET request to the provided callback like this:

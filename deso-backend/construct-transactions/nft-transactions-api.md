@@ -381,7 +381,7 @@ Transfer NFT transactions sends an NFT from the sender to the receiver at no cos
 
 Endpoint implementation in [backend](https://github.com/deso-protocol/backend/blob/709cbfbc62cf3a0e6d56c393e555fc277c93fb76/routes/nft.go#L1399).
 
-Example usages in [diamondapp.com](https://diamondapp.com)'s frontend:\
+Example usages in the reference frontend (this repo's `frontend/`):\
 &#x20; \- Make request to [Transfer NFT](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/backend-api.service.ts#L1068)\
 &#x20; \- Use Transfer NFT to [send NFT to another user](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/transfer-nft/transfer-nft.component.ts#L93)
 
@@ -464,7 +464,7 @@ Accept NFT Transfer transaction changes a transferred NFT status from pending to
 
 Endpoint implementation in [backend](https://github.com/deso-protocol/backend/blob/709cbfbc62cf3a0e6d56c393e555fc277c93fb76/routes/nft.go#L1557).
 
-Example usages in [diamondapp.com](https://diamondapp.com)'s frontend:\
+Example usages in the reference frontend (this repo's `frontend/`):\
 &#x20; \- Make request to [Accept NFT Transfer](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/backend-api.service.ts#L922)\
 &#x20; \- Use AcceptNFTTransfer to [make NFT appear on your profi](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/transfer-nft-accept/transfer-nft-accept.component.ts#L56)0/accept-nft-transfer
 

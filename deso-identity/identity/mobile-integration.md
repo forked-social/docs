@@ -49,7 +49,7 @@ In case your application requires offline signing e.g. when you’re a mobile cl
 To get a derived key for a user, launch the [#derive](../window-api/#derive "mention") window API endpoint with a callback at:
 
 ```javascript
-const derive = window.open('https://identity.deso.org/derive?callback=...');
+const derive = window.open('https://identity.forked.social/derive?callback=...');
 ```
 
 Once the user completes the identity flow, you’ll receive a response containing the derived keypair.
@@ -109,7 +109,7 @@ Let’s take a look at these values:
 
 ### Authorize Derived Key
 
-Before any signing can happen, a derived key must first be activated by submitting an [`authorizeDerivedKey` transaction](https://docs.deso.org/devs/backend-api#authorize-derived-key), containing the `accessSignature`, `derivedPublicKeyBase58Check`, `expirationBlock`, `transactionSpendingLimitHex` and `publicKeyBase58Check`.
+Before any signing can happen, a derived key must first be activated by submitting an `authorizeDerivedKey` transaction (endpoint documented in [Derived Keys Transaction API](../../deso-backend/construct-transactions/derived-keys-transaction-api.md)), containing the `accessSignature`, `derivedPublicKeyBase58Check`, `expirationBlock`, `transactionSpendingLimitHex` and `publicKeyBase58Check`.
 
 To make the transaction, make a request to the `/api/v0/authorize-derived-key` Backend API endpoint.
 
@@ -119,7 +119,7 @@ To help you get started with the `authorizeDerivedKey` transaction, we made [thi
 
 If everything worked, you should see the derived key listed in the response to the `/api/v0/get-user-derived-keys` [endpoint](https://github.com/deso-protocol/backend/blob/f70d89a/routes/user.go#L2559) with a payload of `PublicKeyBase58Check` set to owner user public key.
 
-Additionally, see the implementation of AuthorizeDerivedKey in the DeSo developer hub [here](https://hub.deso.org/#/user/authorize-derived-key).
+Additionally, see the reference implementation of AuthorizeDerivedKey under `backend/routes/` (`/api/v0/authorize-derived-key`).
 
 While powerful, this model has a limitation.
 

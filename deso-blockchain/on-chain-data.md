@@ -33,7 +33,7 @@ To be concrete, below is a complete list of everything that DeSo is currently eq
 * All NFT activity, including NFT bids
 * All $DESO transfer activity
 * Links to all rich media, such as video and images
-* All profile verifications via a new verification paradigm called "[associations](https://diamondapp.com/u/deso/blog/associations-explained-building-network-effects-on-chain)"
+* All profile verifications via a new verification paradigm called "associations" (see [associations](../deso-features/associations.md))
 
 **Exceptions:**
 

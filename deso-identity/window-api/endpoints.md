@@ -15,7 +15,7 @@ This endpoint is used to handle user login or account creation.
 #### Request
 
 ```javascript
-const login = window.open('https://identity.deso.org/log-in');
+const login = window.open('https://identity.forked.social/log-in');
 ```
 
 #### URL Parameters
@@ -100,7 +100,7 @@ Consult the [#messages](./#messages "mention") section for more information.
 #### Request
 
 ```javascript
-const logout = window.open('https://identity.deso.org/logout');
+const logout = window.open('https://identity.forked.social/logout');
 ```
 
 #### URL Parameters
@@ -149,7 +149,7 @@ If the transaction you want to sign is within the scope of the `accessLevel` you
 #### Request
 
 ```javascript
-const approve = window.open('https://identity.deso.org/approve');
+const approve = window.open('https://identity.forked.social/approve');
 ```
 
 #### URL Parameters
@@ -203,7 +203,7 @@ To learn more, read the [#derived-keys](../identity/mobile-integration.md#derive
 #### Request
 
 ```javascript
-const derive = window.open('https://identity.deso.org/derive');
+const derive = window.open('https://identity.forked.social/derive');
 ```
 
 #### URL Parameters
@@ -259,7 +259,7 @@ For example, if the owner of the derived key was public key `A`, and we wanted t
 #### Request
 
 ```javascript
-const secrets = window.open('https://identity.deso.org/get-shared-secrets');
+const secrets = window.open('https://identity.forked.social/get-shared-secrets');
 ```
 
 #### URL Parameters
@@ -289,7 +289,7 @@ The `get-free-deso` endpoint allows for launching the Jumio KYC flow, and if com
 #### Request
 
 ```javascript
-const free = window.open('https://identity.deso.org/get-free-deso');
+const free = window.open('https://identity.forked.social/get-free-deso');
 ```
 
 #### URL Parameters
@@ -335,7 +335,7 @@ The `verify-phone-number` endpoint will give the user some starter DeSo after a 
 #### Request
 
 ```javascript
-const phone = window.open('https://identity.deso.org/verify-phone-number');
+const phone = window.open('https://identity.forked.social/verify-phone-number');
 ```
 
 #### URL Parameters

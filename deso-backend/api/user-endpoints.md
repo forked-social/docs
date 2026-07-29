@@ -354,7 +354,7 @@ No response body
 
 <mark style="color:blue;">`GET`</mark> `/api/v0/get-user-metadata/{PublicKeyBase58Check}`
 
-Get user metadata. Typically, this endpoint is used when reaching node.deso.org to get user metadata that should be merged with user metadata from one's local node.
+Get user metadata. Typically, this endpoint is used when reaching a remote node (e.g. `node.forked.social`) to get user metadata that should be merged with user metadata from one's local node.
 
 Endpoint implementation in [backend](https://github.com/deso-protocol/backend/blob/709cbfbc62cf3a0e6d56c393e555fc277c93fb76/routes/user.go#L438).
 
@@ -551,7 +551,7 @@ Endpoint implementation in [backend](https://github.com/deso-protocol/backend/bl
 
 <mark style="color:green;">`POST`</mark> `/api/v0/delete-identities`
 
-Temporary route to wipe [seedinfo cookies](../../code/walkthrough.md#seed-creation-and-transaction-construction). This endpoint relies on [identity api](../../devs/identity-api.md).
+Temporary route to wipe seedinfo cookies (see [Architecture: identity and transaction construction](../../architecture-overview/README.md)). This endpoint relies on the [Identity API](../../deso-identity/identity/README.md).
 
 Endpoint implementation in [backend](https://github.com/deso-protocol/backend/blob/709cbfbc62cf3a0e6d56c393e555fc277c93fb76/routes/user.go#L498).
 

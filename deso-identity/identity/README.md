@@ -4,7 +4,13 @@
 
 Welcome to the **DeSo Identity Service** documentation!\
 \
-If you're looking to build a Web3 app on the DeSo blockchain, you will most likely want to use the DeSo Identity Service.\
+If you're looking to build a Web3 app on the forked-social network (or any
+DeSo-derived chain), you will most likely want to use the Identity Service.\
+\
+> **forked-social note:** this monorepo ships its own Identity deployment at
+> `https://identity.forked.social` (or run your own from `identity/`). The
+> API below is served there unchanged. Key prefixes differ per network:
+> `FS1…` (fork mainnet) / `tFS2…` (fork testnet).\
 \
 This guide explains how Identity works and it should give you a good understanding of how to integrate it into your app. This guide is intended for a broad range of readers and assumes only a basic understanding of blockchain technology and the TypeScript language.\
 \
@@ -38,7 +44,7 @@ In fact, you've probably already encountered the Identity app when using applica
 
 Identity acts as a secured container that can be queried through Identity API to handle all the functionality related to users' key material.
 
-The Identity API is located under [`https://identity.deso.org`](https://identity.deso.org).
+The Identity API is located under [`https://identity.forked.social`](https://identity.forked.social).
 
 Currently, it integrates most smoothly with web applications, which can be accomplished using our [window-api](../window-api/ "mention") and [iframe-api](../iframe-api/ "mention").
 

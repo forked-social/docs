@@ -22,7 +22,7 @@ We call these coins “**creator coins**,” and you can have your own coin too 
 
 #### You Can Buy Your Favorite Person’s Coin
 
-To buy someone’s coin, you simply navigate to their profile on any DeSo app, such as diamondapp.com, and hit “Buy.”
+To buy someone’s coin, you simply navigate to their profile on any forked-social app, such as forked.social, and hit “Buy.”
 
 You can find someone’s profile either by searching for it or by visiting the creator coin leaderboard (shown below).
 

@@ -1,5 +1,12 @@
 # 3⃣ Data: API
 
+> **forked-social note:** these data endpoints are served by any node on
+> this network — `https://node.forked.social/api/v0/…` or your own node's
+> API port (42001 mainnet / 42421 testnet). Example payloads keep the
+> upstream `BC1…`/`tBC…` pubkey shapes in places; on this network the same
+> objects carry `FS1…` / `tFS2…` keys. Some example URLs inside payloads
+> point at historical upstream media; treat them as illustrative strings.
+
 ## ProfileEntryResponse
 
 Every public key on the DeSo blockchain can have a profile that describes who they are.
@@ -64,7 +71,7 @@ Below is an example of a `PostEntryResponse` - the object that represents a post
   "PosterPublicKeyBase58Check": "tBCKW665XZnvVZcCfcEmyeecSZGKAdaxwV2SH9UFab6PpSRikg4EJ2", // Public key of the user who made this post.
   "ParentStakeID": "", // Hex of the Parent Post Hash. If populated, this post is a comment on the parent.
   "Body": "testesteart", // Text body of the post.
-  "ImageURLs": ["https://images.deso.org/86c5d55150042af2f56b5ed718f5194a42cb072a9f26f5aee9e3afdc7e609c48.gif"], // URLs to images to include in the post
+  "ImageURLs": ["https://media.forked.social/86c5d55150042af2f56b5ed718f5194a42cb072a9f26f5aee9e3afdc7e609c48.gif"], // URLs to images to include in the post
   "VideoURLs": [], // URLs to videos to include in the post
   "RepostedPostEntryResponse": <PostEntryResponse>, // RepostedPostEntryResponse is another post that this post is reposting (similar to retweeting). 
   "CreatorBasisPoints": 1000, // Deprecated

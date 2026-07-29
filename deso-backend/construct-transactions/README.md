@@ -4,6 +4,14 @@ description: Descriptions of all Transaction Construction Endpoints
 
 # 5⃣ Construct: API
 
+> **forked-social note:** these endpoints are served by any node on this
+> network (e.g. `https://node.forked.social/api/v0/…`, or your own node's
+> API port). Public keys in examples may show upstream `BC1…` prefixes — on
+> this network the same payloads use `FS1…` (mainnet) / `tFS2…` (testnet)
+> keys. One inherited endpoint family, BitcoinExchange minting
+> (`/burn-bitcoin`, buy-with-BTC flows), is economically neutralized here —
+> see [NETWORK.md](../../intro/NETWORK.md#genesis-and-supply).
+
 This section describes the endpoints used to construct transactions. All transactions must be signed — you can read about signing transactions in the [Identity Documentation](../../deso-identity/iframe-api/endpoints.md#sign).
 
 For a reference implementation of constructing, signing, and submitting a transaction, see [signAndSubmitTransaction](https://github.com/deso-protocol/frontend/blob/e006beb72867f6d48a78adb1d126c66144a4298c/src/app/backend-api.service.ts#L483) in frontend.

@@ -189,7 +189,7 @@ Get Hot Feed returns a page of Posts that are currently "hot". A post's hotness 
 
 Endpoint implementation in [backend](https://github.com/deso-protocol/backend/blob/709cbfbc62cf3a0e6d56c393e555fc277c93fb76/routes/hot\_feed.go#L605).
 
-Example usages in [diamondapp.com](https://diamondapp.com)'s frontend:\
+Example usages in the reference frontend (this repo's `frontend/`):\
 &#x20; \- Make request to [Get Hot Feed](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/backend-api.service.ts#L1153)\
 &#x20; \- Use GetHotFeed to [get posts to display to the user in the Hot Feed tab](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/feed/feed.component.ts#L501)
 
@@ -237,7 +237,7 @@ Endpoint implementation in [backend](https://github.com/deso-protocol/backend/bl
 
 Example usages in frontend:\
 &#x20; \- Make request to [Get Diamonded Posts](https://github.com/deso-protocol/frontend/blob/e006beb72867f6d48a78adb1d126c66144a4298c/src/app/backend-api.service.ts#L1187)\
-&#x20; \- Use GetDiamondedPosts to [get posts in which a specific user received diamonds from another specific user](https://github.com/deso-protocol/frontend/blob/e006beb72867f6d48a78adb1d126c66144a4298c/src/app/diamond-posts-page/diamond-posts/diamond-posts.component.ts#L56). Example on [node.deso.org](https://node.deso.org/u/LazyNina/diamonds/diamondhands)
+&#x20; \- Use GetDiamondedPosts to [get posts in which a specific user received diamonds from another specific user](https://github.com/deso-protocol/frontend/blob/e006beb72867f6d48a78adb1d126c66144a4298c/src/app/diamond-posts-page/diamond-posts/diamond-posts.component.ts#L56). Example on the reference frontend at [forked.social](https://forked.social)
 
 #### Request Body
 

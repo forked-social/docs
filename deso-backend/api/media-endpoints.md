@@ -34,7 +34,7 @@ Example usages in frontend:\
 {% tab title="Sample Response" %}
 ```json5
 {
-  "ImageURL": "https://images.deso.org/675fc5d13f397d6ce7801b0a76ca928822a768b606d16df1eb015b2e84ed81e5.gif"
+  "ImageURL": "https://media.forked.social/675fc5d13f397d6ce7801b0a76ca928822a768b606d16df1eb015b2e84ed81e5.gif"
 }
 ```
 {% endtab %}

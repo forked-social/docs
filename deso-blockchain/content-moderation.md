@@ -32,9 +32,9 @@ This is what prevents harmful content from seeing the light of day on the intern
 
 It's also largely how the pre-Facebook internet was kept in check, and it's the same mechanism that prevents nodes on the DeSo network from serving harmful content.
 
-For example, one of the main applications built on DeSo, [Diamond](https://diamondapp.com/) is exposing a subset of all the posts on the blockchain.
+For example, the reference application built on this stack, [forked.social](https://forked.social), exposes a subset of all the posts on the blockchain.
 
-Diamond filters the blockchain content to prevent showing content that is harmful or illegal. Every node that runs on top of the DeSo blockchain, including apps like Diamond, Pearl, or Desofy, can expose whatever subset of the posts that they want.
+forked.social filters the blockchain content to prevent showing content that is harmful or illegal. Every node that runs on top of the blockchain, including any app you build on it, can expose whatever subset of the posts that they want.
 
 This being said, showing illegal or harmful content would not only subject them to copious amounts of litigation, but it would also likely make it such that nobody would want to use them.
 

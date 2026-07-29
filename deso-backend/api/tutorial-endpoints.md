@@ -101,7 +101,7 @@ Valid values for tutorial status are `TutorialStarted`, `TutorialSkipped`, `Inve
 
 Endpoint implementation in [backend](https://github.com/deso-protocol/backend/blob/709cbfbc62cf3a0e6d56c393e555fc277c93fb76/routes/tutorial.go#L36).
 
-Example usages in [diamondapp.com](https://diamondapp.com)'s frontend:\
+Example usages in the reference frontend (this repo's `frontend/`):
 &#x20; \- Make request to [Update Tutorial Status](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/backend-api.service.ts#L2275)\
 &#x20; \- Use UpdateTutorialStatus to [set the user's tutorial status to the current step in your tutorial](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/trade-creator-page/trade-creator/trade-creator.component.ts#L399)
 {% endswagger-description %}

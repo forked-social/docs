@@ -34,11 +34,11 @@ We apologize for the inconvenience here. We know this process is not ideal, but 
 
 ## How does DeSo Identity work?
 
-DeSo Identity, located at [identity.deso.org](https://identity.deso.org), safely stores your sensitive account information in your browser's local storage. To protect private key material the identity service has minimal dependencies, a strict content security policy, and is audited by multiple security firms.\
+DeSo Identity, located at [identity.forked.social](https://identity.forked.social), safely stores your sensitive account information in your browser's local storage. To protect private key material the identity service has minimal dependencies, a strict content security policy, and is audited by multiple security firms.\
 \
-**For now, the developer community does not recommend entering your seed phrase anywhere other than identity.deso.org.**\
+**For now, the developer community does not recommend entering your seed phrase anywhere other than identity.forked.social.**\
 \
-Always check the URL bar to verify you are using `identity.deso.org.`
+Always check the URL bar to verify you are using `identity.forked.social.`
 
 The DeSo Identity Service aims to make it easy for users to use a wide array of community projects safely and securely.\
 \

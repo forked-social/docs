@@ -57,13 +57,11 @@ Below are just some examples of the possibilities on how to use DeSo Social NFTs
 
 * **Collectible ticket stubs.** If you were to sell tickets to a concert in the form of DeSo NFTs, then every attendee would automatically get a virtual ticket stub on their profile commemorating the event that their friends would get to see (not to mention the extra promo you'll get from your coin-holders!).\
   \
-  Could you imagine if [@3LAU](https://diamondapp.com/u/3LAU) sold his tickets as DeSo NFTs? This mechanic could also be used to sell tickets to exclusive events like the premiere of a movie or an exclusive gala.\
+  This mechanic could also be used to sell tickets to exclusive events like the premiere of a movie or an exclusive gala.\
 
 * **Physical memorabilia: The digital collector's room**. Imagine selling a physical piece of memorabilia, like a prop from a movie set, with an NFT attached, issued by the original seller, that the buyer gets to flex on their profile.\
   \
   This turns a user's profile into an inventory of their collector's room, where you can see all of the cool things they own, both in the digital and physical world, with NFTs serving as certificates of authenticity issued and signed directly by the original seller.\
-  \
-  Could you imagine if someone like [@GeorgeTakei](https://diamondapp.com/u/georgetakei) from Star Trek cleaned out his closet one day using DeSo NFTs?\
 
 *   **Exclusive experiences.** Selling experiences as NFTs makes unique sense on DeSo.\
     \
@@ -72,20 +70,18 @@ Below are just some examples of the possibilities on how to use DeSo Social NFTs
     The creator then has full control over determining the winners, and those winners not only get to meet the creator, but they also get to sport the fact that they did on their
 
     profiles forever.\
-    \
-    Maybe [@wolfofwallst](https://diamondapp.com/u/wolfofwallst) could give Warren Buffet's charity lunch some competition!\
 
 * **Exclusive unlockable digital content.** DeSo NFTs have an "unlockable" portion that only the winner of the NFT gets to see.\
   \
   This creates interesting use-cases around selling hyper-exclusive digital goods. For example, an artist can drop an album a week early as an unlockable 1/10,000 NFT such that only her true fans who win the NFT are able to listen to it ahead of time.\
   \
-  This would result in extra cash flow for the artist while still allowing them to capture the same streaming revenues a week later. Could you imagine getting early access to [@thechainsmokers](https://diamondapp.com/u/thechainsmokers)' next album, and getting an NFT along with it?\
+  This would result in extra cash flow for the artist while still allowing them to capture the same streaming revenues a week later.\
 
 *   **Exclusive chat groups.** Creators can offer exclusive chat groups using DeSo NFTs to gate
 
-    access. For example, a creator can sell a 1/100 NFT such that any current owner of the NFT is able to participate in an exclusive Telegram group, weekly Zoom call, etc...\
+    access. For example, a creator can sell a 1/100 NFT such that any current owner of the NFT is able to participate in an exclusive group chat, weekly call, etc...\
     \
-    We already saw this happening with creators like [@craig](https://diamondapp.com/u/craig), but it also makes sense for sports insiders like [@adamschefter](https://diamondapp.com/u/adamschefter).\
+    This pattern can work for any insider with an audience, from creators to sports analysts.\
 
 * **Interactive content.** For content creators, DeSo NFTs can be used as a way to solicit feedback from fans, or to guide the direction of content. For example, the creator of a podcast can sell an NFT where the winner gets to decide what their next episode is going to be about.\
   \
@@ -93,9 +89,7 @@ Below are just some examples of the possibilities on how to use DeSo Social NFTs
   \
   Alternatively, music artists can offer to put an NFT winner's name in a song or include them in a music video, and the winner would have the NFT on their profile to commemorate the experience.\
   \
-  The creator of a movie or short film could sell producer credits in the final cut as NFTs. Could you imagine if the winner of a DeSo NFT could decide the topic for [@shaanvp](https://diamondapp.com/u/shaanvp)'s next show, or win a shoutout at the end of a [@jakepaul](https://diamondapp.com/u/jakepaul) or [@loganpaul](https://diamondapp.com/u/loganpaul) fight?\
-  \
-  How about a Clubhouse AMA with [@alexisohanian](https://diamondapp.com/u/alexisohanian), where the winners of a "one of 10" NFT get to come on-stage first? Or maybe we can finally get [@BennyBlanco](https://diamondapp.com/u/BennyBlanco) to bring us that DeSo Boys single we've all been waiting for, as a gloriously sought-after NFT.\
+  The creator of a movie or short film could sell producer credits in the final cut as NFTs.\
 
 *   **Counterfeit-proof Rolexes, Chanel handbags, etc...** Major brands have a big problem with
 
@@ -113,13 +107,11 @@ Below are just some examples of the possibilities on how to use DeSo Social NFTs
   \
   All they need to do is create a unique piece of artwork, like a [cryptopunk](https://www.larvalabs.com/cryptopunks) drawing of themselves, and their biggest fans can sport it on their profiles.\
   \
-  Notably, each DeSo NFT has a serial number, so each one will be special, even within the same issue. [@ab](https://diamondapp.com/u/ab), could you be the first DeSo NFT trading card!\
+  Notably, each DeSo NFT has a serial number, so each one will be special, even within the same issue.\
 
 * **Fine art.** Major artists have shown that NFTs are going to be a big part of the future of fine art. They not only allow anyone to enjoy the artist's work, but they also do a much better job of tracking the ownership of a piece, which means the provenance can't be forged.\
   \
   The fact that DeSo also incorporates the artist's identity, via their profile, into the minting of an NFT should, we hope, further increase the value and utility of NFTs issued by artists.\
-  \
-  Artists on DeSo have already been innovating extremely fast, and we're so excited to take things to the next level with DeSo NFTs. Maybe we can even get [@beeple](https://diamondapp.com/u/beeple) to finally claim his profile!\
 
 * **The future of Charity.** Charities can create profiles on DeSo, just like ordinary people. When they do this, anyone can elect to send them DeSo as part of the sale of their NFT.\
   \
@@ -171,7 +163,7 @@ Could you imagine if Picasso had a creator coin linked to all of his works?
 
 ### How DeSo NFTs Work
 
-The easiest way to see how DeSo NFTs work is to try and create one on a DeSo app like [Diamond](https://diamondapp.com).
+The easiest way to see how DeSo NFTs work is to try and create one on a forked-social app like [forked.social](https://forked.social).
 
 Very simply, the steps to minting and selling a DeSo NFT are as follows:
 

@@ -12,7 +12,7 @@ However, the iframe does need to render on some browsers such as Safari as the u
 
 We will explain how to implement this later in the guide.
 
-In order to communicate with the iframe API, you need to include the iframe window HTML component into your app and point it to the `https://identity.deso.org/embed` URL.
+In order to communicate with the iframe API, you need to include the iframe window HTML component into your app and point it to the `https://identity.forked.social/embed` URL.
 
 Below is an example component.
 
@@ -22,7 +22,7 @@ We also provided you with an example with CSS styling.
 <iframe
   id="identity"
   frameborder="0"
-  src="https://identity.deso.org/embed"
+  src="https://identity.forked.social/embed"
   style="height: 100vh; width: 100vw; display: none; position: fixed; 
     z-index: 1000; left: 0; top: 0;"
 ></iframe>

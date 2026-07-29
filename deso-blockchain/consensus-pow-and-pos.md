@@ -22,18 +22,17 @@ Below, we detail a concrete scaling roadmap with four relatively straightforward
 The math below walks through DeSo scalability at each stage:
 
 1. **Proof of Stake**
-   * DeSo moved from PoW to it's breakthrough [Revolution PoS](https://revolution.deso.com/) on **July 9th, 2024**
+   * forked-social inherited DeSo's Revolution PoS machinery; on this network the PoW bootstrap runs only to block **300**, where consensus cuts over to Proof of Stake (see [../intro/NETWORK.md](../intro/NETWORK.md))
      * Revolution PoS brings many novel innovations including:
-       * Content, Identity, Social Graphs, Finance and Assets fully on-chain & decentralized on a single Layer-1, with streamlined onboarding.
-       * Support for fully on-chain Twitter-scale consumer apps at 500 posts per second, and thousands of DeFi transactions per second.
-       *   <1/10,00th of a cent per post compared to \~$1 on Solana and $100+ on Ethereum.
+        * Content, Identity, Social Graphs, Finance and Assets fully on-chain & decentralized on a single Layer-1, with streamlined onboarding.
+        * Support for fully on-chain Twitter-scale consumer apps at 500 posts per second, and thousands of DeFi transactions per second.
+        *   <1/10,00th of a cent per post compared to \~$1 on Solana and $100+ on Ethereum.
 
-           1 second confirmation times.
-       * Data synced over a thousand permissionless validators with HyperSync, and secured via on-chain E2E-Encryption where needed.
-       * Burn-Maximizing Fee (BMF) model built to minimize congestion, and increase value for coin-holders.
-       * State-of-the art Fast-HotStuff consensus, the first of it's kind in production.
-       * Permissionlessly run validators with no staking minimums, no slashing risks, with commodity hardware (when using min. requirements).
-     * You learn learn more about Revolution via [revolution.deso.com ](https://revolution.deso.com)\
+            1 second confirmation times.
+        * Data synced over a thousand permissionless validators with HyperSync, and secured via on-chain E2E-Encryption where needed.
+        * Burn-Maximizing Fee (BMF) model built to minimize congestion, and increase value for coin-holders.
+        * State-of-the art Fast-HotStuff consensus, the first of it's kind in production.
+        * Permissionlessly run validators with no staking minimums, no slashing risks, with commodity hardware (when using min. requirements).
 
 2. **Bigger blocks**
    * The average DeSo blockchain post size is **218 bytes**.\

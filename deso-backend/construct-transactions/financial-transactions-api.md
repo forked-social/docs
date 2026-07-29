@@ -19,7 +19,7 @@ Endpoint implementation in [backend](https://github.com/deso-protocol/backend/bl
 Example usage in frontend:\
 &#x20; \- Make request to Send DeSo to get [a preview of the transaction.](https://github.com/deso-protocol/backend/blob/709cbfbc62cf3a0e6d56c393e555fc277c93fb76/routes/transaction.go#L905)\
 &#x20; \- Make request to Send DeSo and [sign+submit the transaction.](https://github.com/deso-protocol/frontend/blob/e006beb72867f6d48a78adb1d126c66144a4298c/src/app/backend-api.service.ts#L667)\
-&#x20; \- Use SendDeSo to [transfer DeSo to another user.](https://github.com/deso-protocol/frontend/blob/e006beb72867f6d48a78adb1d126c66144a4298c/src/app/transfer-deso/transfer-deso.component.ts#L165)
+ &#x20; \- Use SendDeSo to transfer coins to another user (see the transfer component in this repo's `frontend/`).
 
 #### Request Body
 

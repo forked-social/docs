@@ -75,20 +75,20 @@ event.source.postMessage({
     id: '21e02080-0ef4-4056-a319-a66403f33768',
     service: 'identity',
     payload: {},
-}, "https://identity.deso.org");
+}, "https://identity.forked.social");
 ```
 
 The `id` field should be set to match the `id` value present in the `initialize` message.
 
 We set the `id` field as a string in the above code snippet, but you should set `id: event.data.id` in your code.
 
-You may have noticed that in the example above we've added the string `"https://identity.deso.org"` at the end of the `postMessage()` call.
+You may have noticed that in the example above we've added the string `"https://identity.forked.social"` at the end of the `postMessage()` call.
 
 This specifies the target origin, or the accepted URL for the destination of the `postMessage`.&#x20;
 
 We can alternatively pass the wildcard `"*"` to accept any URL, which is less safe, but we will use it throughout this documentation for simplicity.
 
-However, we recommend setting `"https://identity.deso.org"` for better security.
+However, we recommend setting `"https://identity.forked.social"` for better security.
 
 A few quick notes about message formats:
 
@@ -132,7 +132,7 @@ When handling user account creation or login you will always need to deal with a
 When handling user accounts in the DeSo Identity `window` context, you will always want to add a `accessLevelRequest` URL parameter to the request, such as below:
 
 ```javascript
-window.open("https://identity.deso.org/log-in?accessLevelRequest=4", null);
+window.open("https://identity.forked.social/log-in?accessLevelRequest=4", null);
 ```
 
 The DeSo Protocol's implementation uses a `params` variable when handling URL parameters, and `accessLevelRequest` logic can be found at line [#85](https://github.com/deso-protocol/frontend/blob/6d6225a8425f2fe7ad84a222027159333b2c754f/src/app/identity.service.ts#L85).
@@ -231,7 +231,7 @@ The response will contain either the `signedTransactionHex` , meaning the reques
 To do so, we will launch a `window` context with the `/approve` endpoint and pass the desired transaction as URL param:
 
 ```javascript
-window.open("https://identity.deso.org/approve?tx={transactionHex}", null);
+window.open("https://identity.forked.social/approve?tx={transactionHex}", null);
 ```
 
 After receiving the `signedTransactionHex`, we can then broadcast it to the network.

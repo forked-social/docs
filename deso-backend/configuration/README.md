@@ -4,7 +4,17 @@ description: Overview of the configuration flags for running your own backend
 
 # 1️⃣ Backend: Config
 
-**Core Protocol:** Trying to build the next great social app on top of the DeSo blockchain or running a node and want to know the ins-and-outs of all the endpoints?
+> **forked-social note:** these are the config flags of the backend you run
+> on this network. The deployment artifacts actually used in production are
+> `backend/deploy.env` + `backend/podman-compose.yml` (seed) and
+> `backend/validators/` (validators) — this section documents the full flag
+> surface those files draw from. Network selection is `FORKNET=true` /
+> `FORKNET_TESTNET=true`. Not everything here (e.g. the fiat on-ramp
+> integrations) is operated on this network; the docs are kept because the
+> code paths exist. See [Network Reference](../../intro/NETWORK.md) for
+> ports, peers, and checkpoint providers.
+
+**Core Protocol:** Trying to build the next great social app on top of the blockchain or running a node and want to know the ins-and-outs of all the endpoints? 
 
 This section is for you.
 

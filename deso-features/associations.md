@@ -40,7 +40,7 @@ Imagine **User A** wants to endorse **User B** for knowing the programming langu
 
 **User A** can submit the following association transaction:
 
-![](https://images.deso.org/398599c540928a7983b7107939dcbf1e81c07a0a48348da47cd348f63ea9ff41.webp)
+![](https://media.forked.social/398599c540928a7983b7107939dcbf1e81c07a0a48348da47cd348f63ea9ff41.webp)
 
 This association acts as an official on-chain endorsement by **User A** of **User B**’s knowledge of “JavaScript”.&#x20;
 
@@ -60,7 +60,7 @@ For example, imagine **User A** would like to HEART **User B**’s post globally
 
 **User A** can submit the following association transaction:
 
-![](https://images.deso.org/0cbd84466205c7f53a44fb9af221fb66095e598e7b83da8539638048c4a98eec.webp)
+![](https://media.forked.social/0cbd84466205c7f53a44fb9af221fb66095e598e7b83da8539638048c4a98eec.webp)
 
 Applications built on top of the DeSo blockchain can query for the number of reactions on **User B**’s post, all of the users who have hearted the post, etc.
 

@@ -215,7 +215,7 @@ Gets the number of unread notifications.
 
 Endpoint implementation in [backend](https://github.com/deso-protocol/backend/blob/709cbfbc62cf3a0e6d56c393e555fc277c93fb76/routes/user.go#L1795).
 
-Example usages in [diamondapp.com](https://diamondapp.com)'s frontend:\
+Example usages in the reference frontend (this repo's `frontend/`):
 &#x20; \- Make request to [Get Unread Notification Count](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/backend-api.service.ts#L1706)\
 &#x20; \- Use GetUnreadNotificationCount to [display an indicator next to notifications representing the number of unread notifications ](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/global-vars.service.ts#L274)
 
@@ -263,7 +263,7 @@ Update the number of unread notifications, the last notification seen index, and
 
 Endpoint implementation in [backend](https://github.com/deso-protocol/backend/blob/709cbfbc62cf3a0e6d56c393e555fc277c93fb76/routes/user.go#L2050).
 
-Example usages in [diamondapp.com](https://diamondapp.com)'s frontend:\
+Example usages in the reference frontend (this repo's `frontend/`):
 &#x20; \- Make a request to [Set Notification Metadata](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/backend-api.service.ts#L1691)\
 &#x20; \- Use SetNotificationMetadata [when loading the first page of notifications](https://github.com/diamond-app/frontend/blob/735634e38dfa0605035ded19b46b92766ec856c4/src/app/notifications-page/notifications-list/notifications-list.component.ts#L98)
 

@@ -8,9 +8,9 @@ Running a node gives you full access to the DeSo firehose. Access to every profi
 
 When you run a node, it starts with a blank global feed and an "Admin" panel that you can use to start adding posts to it.\
 \
-All of the same tools that the [Diamond](../diamondapp.com) team uses to manage their global feed are now available to you to manage a feed of your own. Essentially, running a DeSo node allows you to expose your own "view" of the firehose of content. \
+All of the same tools that the [forked.social](https://forked.social) team uses to manage their global feed are now available to you to manage a feed of your own. Essentially, running a node allows you to expose your own "view" of the firehose of content. \
 \
-[Diamond](https://diamondapp.com) exposes all of the crypto-related content, but when you run your own node you have full control to surface whatever content speaks to you.\
+[forked.social](https://forked.social) exposes its own curated slice of the content, but when you run your own node you have full control to surface whatever content speaks to you.\
 \
 What will you do with your feed? Here are some ideas for feeds that we think would be popular:
 
@@ -133,7 +133,7 @@ To manage your feed, start by navigating to the Admin tab as shown below.\
 \
 The Admin tab shows the full firehose of posts in real-time, with a button next to each one that allows you to add it to the global feed. \
 \
-These are all the same tools that the [Diamond](https://diamondapp.com) mods have, now at your fingertips through the power of decentralization.
+These are all the same tools that the forked.social moderators have, now at your fingertips through the power of decentralization.
 
 ![](<../.gitbook/assets/image-deso-2-8-1-2-2-2-2- (2) (1).png>)
 
